@@ -25,4 +25,8 @@ npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-# vue-study
+# 说明
+
+## 将静态资源打包压缩成zip
+* `zip -r zolApp.zip ./www`
+
