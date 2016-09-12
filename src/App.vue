@@ -1,13 +1,15 @@
 <template>
     <div id="app">
-      <div class="col-xs-6">
-        <a v-link="{path:'/list'}">进入列表页changed-7</a>
+      <div class="">
+        <a v-link="{path:'/list'}">首页</a>
+        <zol-header></zol-header>
         <router-view></router-view>
       </div>
     </div>
 </template>
 
 <script>
+import ZolHeader from './components/Header'
 export default {
   data: function () {
     return {
@@ -17,7 +19,7 @@ export default {
       childWords: ''
     }
   },
-  props: ['remaining'],
+  components: {ZolHeader},
   methods: {
     toggleFinished: function (item) {
       item.isFinished = !item.isFinished

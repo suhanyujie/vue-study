@@ -1,5 +1,6 @@
 <template id="topic-list-box">
     <div id="app-list">
+      <h1>列表页</h1>
       <ul class="list-group">
         <!-- {{ baseUrl }}{{item.id}} -->
         <li class="list-group-item" v-for="item in items"><a v-link="getTopicLink(item.id)"> {{item.title}} </a></li>
