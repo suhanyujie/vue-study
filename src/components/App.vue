@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import ZolHeader from './components/Header'
+import ZolHeader from 'components/Header'
 export default {
   data: function () {
     return {
