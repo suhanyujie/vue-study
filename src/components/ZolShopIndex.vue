@@ -34,9 +34,10 @@
     <section class="recommend-section">
       <header>热卖推荐</header>
       <div id="bar_list_div">
+        <!--v-link="getTopicLink(item.duoBaoId)"-->
         <ul class="product-list clearfix">
           <li v-for="item in items">
-            <a v-link="getTopicLink(item.duoBaoId)">
+            <a href="./detail.html">
               <figure><img v-bind:src="item.picUrl"></figure>
               <span class="title">{{ item.duoBaoName }}</span>
               <span class="price">¥{{ item.needNumber }}</span>
@@ -80,7 +81,8 @@ export default {
       })
     },
     getTopicLink: function (topicId) {
-      return '/detail/' + topicId
+      // return '/detail/' + topicId
+      return '/detail.html'
     }
   }
 }

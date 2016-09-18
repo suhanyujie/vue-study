@@ -23,14 +23,14 @@ var router = new VueRouter({
 })
 // 定义路由规则
 router.map({
-  '/detail/:goodsId': {
+  '/detail': {
     component: ShopDetail
   }
 
 })
 
 // 现在我们可以启动应用了！
-router.start(App, '#another-app')
+router.start(ShopDetail, '#another-app')
 // new Vue({
 //   el: 'body',
 //   components: { App }

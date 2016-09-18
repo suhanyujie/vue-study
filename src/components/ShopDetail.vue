@@ -1,6 +1,7 @@
 <template>
   <div>
-    <a v-link="{path:'/list'}">返回列表页</a>
+    <!-- v-link="{path:'/list'}" -->
+    <a href="./index.html">返回列表页</a>
     <header class="wap-index">
       <div class="head">
         <h1 class="logo">ZOL商城</h1>

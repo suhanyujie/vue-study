@@ -1,7 +1,7 @@
 <template>
     <div id="app">
       <div class="">
-        <a v-link="{path:'/list'}">首页</a>
+        <a v-link="{path:'/list'}">首页1</a>
         <zol-header></zol-header>
         <router-view></router-view>
       </div>
