@@ -6,7 +6,7 @@ import VueResource from 'vue-resource'
 import VueRouter from 'vue-router'
 
 import Detail from 'components/topicDetail'
-import ShopDetail from 'components/ShopDetail'
+import ShopDetail from './ShopDetail'
 
 /* eslint-disable no-new
  import Detail from 'components/topicDetail'
