@@ -6,6 +6,7 @@ import Detail from 'components/topicDetail'
 import App from 'components/App'
 import TopicList from './ZolShopIndex'
 import ShopDetail from '../detail/ShopDetail'
+
 /* eslint-disable no-new
  import Detail from 'components/topicDetail'
  import TopicList from './components/Cnodejs'

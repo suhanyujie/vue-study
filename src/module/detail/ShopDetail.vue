@@ -2,12 +2,7 @@
   <div>
     <!-- v-link="{path:'/list'}" -->
     <a href="./index.html">返回列表页</a>
-    <header class="wap-index">
-      <div class="head">
-        <h1 class="logo">ZOL商城</h1>
-        <a class="search" href="javascript:;">搜索全部商品</a>
-      </div>
-    </header>
+    <common-header></common-header>
     <section>
       <div class="focus flipview" data-loop="cloned" style="height: 425px;">
         <ul class="container">
@@ -425,6 +420,7 @@
   </div>
 </template>
 <script>
+import commonHeader from '../../components/Header'
 export default{
   data () {
     return {
@@ -433,6 +429,7 @@ export default{
       detailData: ''
     }
   },
+  components: { commonHeader },
   route: {
     data (transition) {
       // let topicId = transition.to.params.goodsId
