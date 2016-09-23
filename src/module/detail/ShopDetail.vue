@@ -2,7 +2,7 @@
   <div>
     <!-- v-link="{path:'/list'}" -->
     <a href="./index.html">返回列表页</a>
-    <common-header></common-header>
+    <zol-header></zol-header>
     <section>
       <div class="focus flipview" data-loop="cloned" style="height: 425px;">
         <ul class="container">
@@ -420,7 +420,7 @@
   </div>
 </template>
 <script>
-import commonHeader from '../../components/Header'
+import zolHeader from '../../components/Header'
 export default{
   data () {
     return {
@@ -429,7 +429,7 @@ export default{
       detailData: ''
     }
   },
-  components: { commonHeader },
+  components: { zolHeader },
   route: {
     data (transition) {
       // let topicId = transition.to.params.goodsId
